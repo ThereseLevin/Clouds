@@ -372,3 +372,16 @@ header .header-container div {
   padding: 5px;
   border: 2px solid black;
 }
+
+/* --- MAIN --- */
+main div h2 {
+  text-align: center;
+}
+main .grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid black;
+}
+main .grid-1 div {
+  border: 1px solid black;
+}

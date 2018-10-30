@@ -1,0 +1,18 @@
+/* --- MAIN --- */
+
+main {
+    div {
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .grid-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border: 1px solid black;
+        div {
+            border: 1px solid black;
+        }
+    }
+}
