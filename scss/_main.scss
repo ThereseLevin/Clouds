@@ -9,10 +9,21 @@ main {
 
     .grid-1 {
         display: grid;
+        width: 80%;
+        margin: auto;
         grid-template-columns: 1fr 1fr 1fr;
         border: 1px solid black;
         div {
             border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .col-1 {
+            background-image: url("../media/cloud1.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 40vh;
         }
     }
 }
